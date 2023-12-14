@@ -1,0 +1,26 @@
+{% load static %}
+    <section id="features" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Recursos</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          {% for r in recursos %}
+          <!-- Features item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="features-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="{{ r.icone }}"></i>
+              </div>
+              <div class="features-content">
+                <h3><a href="#">{{ r.recurso }}</a></h3>
+                <p>{{ r.utilidade}}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </section>
