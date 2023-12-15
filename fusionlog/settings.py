@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_adminlte2',
+    'django-adminlte2',
     'django_adminlte_theme',
 
     'core',
