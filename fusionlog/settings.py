@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django-adminlte3',
     'django_adminlte_theme',
+    'django-adminlte',
 
     'core',
 ]
